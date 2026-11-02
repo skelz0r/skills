@@ -62,7 +62,7 @@ Les cas listés après « Le code prouve : NC… » sont des exemples, pas une l
 - **Page** : document complet (`<html>`, `<head>`), layout ou gabarit de route (`app/views/layouts/`, `pages/`, `app/**/page.tsx`, `index.html`).
 - **Composant** : tout le reste (composant, partial, fragment de page).
 
-En mode composant, les thèmes 8 (Éléments obligatoires) et 12 (Navigation) ne sont pas évalués : leurs 21 critères dépendent de la page complète. Les compter à part, en « non évalués — mode composant », jamais en NA. Indiquer le mode dans l’en-tête du rapport.
+En mode composant, 12 critères ne sont pas évalués, car ils dépendent de la page complète ou de l’ensemble de pages : 8.1, 8.3 à 8.6 et 12.1 à 12.7. Les compter à part, en « non évalués — mode composant », jamais en NA. Les autres critères des thèmes 8 et 12 (8.2, 8.7 à 8.10, 12.8 à 12.11) s’évaluent sur le fragment audité. Indiquer le mode dans l’en-tête du rapport.
 
 **Règle de tri par impact (avant tout verdict) :**
 
@@ -147,7 +147,7 @@ Sans réponse, ou en exécution non interactive (agent, script) : sauter les pha
 | 13. Consultation | | | | |
 | **Total** | | | | |
 
-En mode composant, les lignes 8 et 12 portent « non évalués — mode composant ».
+En mode composant, les lignes 8 et 12 ne comptent que les critères évalués sur le fragment et précisent le reste : « 8. Éléments obligatoires (5 non évalués) », « 12. Navigation (7 non évalués) ».
 
 ---
 
@@ -187,11 +187,10 @@ Priorité : celle de la NC la plus grave (un même champ en 🔴 au 11.10 et en 
 ### Limites du mode composant _(si applicable)_
 
 Ces critères nécessitent la page complète pour être évalués, entre autres :
-- 8.3 Langue par défaut de la page
-- 8.5 Titre de la page
+- 8.1, 8.3 à 8.6 Type de document, langue par défaut et titre de la page
+- 8.2 Code source valide (évalué sur le fragment, à revérifier sur la page complète)
 - 9.1 Hiérarchie de titres sur l’ensemble de la page (évaluée sur le fragment, à revérifier sur la page complète)
-- 12.1 Systèmes de navigation
-- 12.7 Lien d’évitement
+- 12.1 à 12.7 Systèmes de navigation, plan du site, moteur de recherche, zones de regroupement et lien d’évitement
 ```
 
 **Impact utilisateur :** reprendre la ligne **Impact** du critère dans sa référence si elle correspond au défaut constaté. Sinon, décrire le mécanisme du blocage et l’outil concerné en s’appuyant sur [references/impacts.md](references/impacts.md), par exemple : « Pour une personne qui utilise un lecteur d’écran, le lien est restitué caractère par caractère : la destination est inintelligible. » Ne jamais désigner une catégorie de handicap.
