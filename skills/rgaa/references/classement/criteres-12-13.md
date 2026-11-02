@@ -21,7 +21,7 @@ En mode composant, 12.1 à 12.7 ne sont pas évalués : ni verdict ni question d
 - **12.8** Ordre de tabulation cohérent — mixte (question « Clavier »). Le code prouve : NC sur un `tabindex` positif, ou sur un contenu inséré par script loin de son déclencheur dans l’ordre du code. Reste : parcourir la page à la touche Tab et comparer l’ordre du focus à l’ordre de lecture.
 - **12.9** Pas de piège au clavier — conditions réelles (question « Clavier »). Reste : vérifier qu’on atteint l’élément suivant et précédent depuis chaque élément focalisable (Tab, Maj+Tab, Échap).
 - **12.10** Raccourcis clavier à une seule touche contrôlables — mixte. Le code prouve : NC sur un écouteur clavier qui déclenche une action sur une touche seule, sans modificateur, sans moyen de le désactiver ou de le reconfigurer, et actif hors du focus du composant. Reste : vérifier les raccourcis ajoutés par des bibliothèques hors du code audité.
-- **12.11** Contenus additionnels atteignables au clavier — mixte (question « Clavier »). Le code prouve : NC sur un sous-menu ou un panneau affiché seulement au survol (`mouseenter`, `:hover`) dont le contenu interactif n’est pas atteignable au clavier. Reste : vérifier au clavier que chaque contenu additionnel s’affiche et s’atteint.
+- **12.11** Contenus additionnels atteignables au clavier — mixte (question « Clavier »). Le code prouve : NC sur un sous-menu ou un panneau affiché seulement au survol (`mouseenter`, `:hover`) dont le contenu interactif n’est pas atteignable au clavier. Reste : vérifier au clavier que chaque contenu additionnel, affiché au survol, au focus ou à l’activation, s’affiche et s’atteint.
 
 ## Thème 13 — Consultation
 

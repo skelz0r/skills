@@ -24,6 +24,8 @@ En mode composant, 8.1 et 8.3 à 8.6 ne sont pas évalués : ni verdict ni quest
 
 ## Thème 9 — Structuration de l’information
 
+En mode composant, 9.2 n’est pas évalué : ni verdict ni question de phase 2. Les autres s’évaluent sur le fragment audité.
+
 - **9.1** Information structurée par des titres — mixte. Le code prouve : NC sur un saut de niveau, un titre vide, ou un passage stylé comme un titre sans balise `<hx>` ni `role="heading"`. Reste : juger, page sous les yeux, que chaque titre décrit sa section et que chaque titre visuel est balisé.
 - **9.2** Structure du document cohérente — code
 - **9.3** Listes correctement structurées — mixte. Le code prouve : NC sur une suite présentée comme liste sans `<ul>`, `<ol>`, `<dl>` ni rôles `list` et `listitem` (puces ou tirets en texte, `<br>` successifs), ou un `<ul>` dont les enfants ne sont pas des `<li>`. Reste : voir le rendu pour repérer les contenus présentés visuellement comme une liste.
