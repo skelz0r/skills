@@ -9,7 +9,7 @@ Classement provisoire, en attente de l’avis du pôle accessibilité numérique
 
 ## Thème 8 — Éléments obligatoires
 
-En mode composant, ces critères ne sont pas évalués : ni verdict ni question de phase 2.
+En mode composant, 8.1 et 8.3 à 8.6 ne sont pas évalués : ni verdict ni question de phase 2. Les autres s’évaluent sur le fragment audité.
 
 - **8.1** Type de document — code
 - **8.2** Code source généré valide — mixte. Le code prouve : NC sur un `id` en double, une imbrication interdite (`<div>` dans un `<p>`, élément interactif dans un `<a>` ou un `<button>`), une balise mal fermée ou un attribut doublé. Reste : passer le code source généré de la page au validateur HTML.

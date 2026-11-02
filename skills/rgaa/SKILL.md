@@ -76,11 +76,11 @@ Le RGAA vérifie un défaut restitué à la personne qui consulte la page. Raiso
 
 ### Phase 2 — Vérifications en conditions réelles
 
-Après l’analyse, poser en un seul message les vérifications que le code seul ne permet pas, prises dans ce catalogue fermé : aucune autre question. Une question rattache les critères dont la ligne de classement la cite (« question « Clavier » »). Ne la poser que si au moins un de ces critères est applicable et encore NT après la phase 1. En mode composant, les critères des thèmes 8 et 12 ne déclenchent aucune question.
+Après l’analyse, poser en un seul message les vérifications que le code seul ne permet pas, prises dans ce catalogue fermé : aucune autre question. Une question rattache les critères dont la ligne de classement la cite (« question « Clavier » »). Ne la poser que si au moins un de ces critères est applicable et encore NT après la phase 1. En mode composant, les critères non évalués ne déclenchent aucune question.
 
 | Question | Priorité | Libellé posé |
 |---|---|---|
-| **Clavier** | 🔴 | Test au clavier effectué ? (Tab, Maj+Tab, Entrée, Espace, Échap, flèches sur chaque élément interactif ; on sort de chaque composant au clavier) |
+| **Clavier** | 🔴 | Test au clavier et au pointeur effectué ? (Tab, Maj+Tab, Entrée, Espace, Échap, flèches sur chaque élément interactif ; on sort de chaque composant au clavier ; chaque commande s’utilise au pointeur ; un contenu additionnel reste visible quand le pointeur passe dessus) |
 | **Focus visible** | 🔴 | Focus visible sur tous les éléments interactifs ? |
 | **CAPTCHA** | 🔴 | Le CAPTCHA propose-t-il une autre forme d’accès (audio, question) ? |
 | **Titre de la page** | 🔴 | Le titre de la page est-il pertinent et spécifique ? |
@@ -94,7 +94,7 @@ Exemple de message, quand seuls les critères des questions « Clavier » et « 
 ```
 Avant de finaliser le rapport, quelques vérifications que le code seul ne permet pas :
 
-🔴 Test au clavier effectué ? (Tab, Maj+Tab, Entrée, Espace, Échap, flèches sur chaque élément interactif ; on sort de chaque composant au clavier)
+🔴 Test au clavier et au pointeur effectué ? (Tab, Maj+Tab, Entrée, Espace, Échap, flèches sur chaque élément interactif ; on sort de chaque composant au clavier ; chaque commande s’utilise au pointeur ; un contenu additionnel reste visible quand le pointeur passe dessus)
 🟠 Contrastes vérifiés ? (texte, composants d’interface, liens dans un texte)
 ```
 

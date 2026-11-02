@@ -9,7 +9,7 @@ Classement provisoire, en attente de l’avis du pôle accessibilité numérique
 
 ## Thème 12 — Navigation
 
-En mode composant, ces critères ne sont pas évalués : ni verdict ni question de phase 2. Le piège au clavier d’un composant se vérifie au 7.3.
+En mode composant, 12.1 à 12.7 ne sont pas évalués : ni verdict ni question de phase 2. Les autres s’évaluent sur le fragment audité.
 
 - **12.1** Deux systèmes de navigation différents — jugement humain. Reste : vérifier sur l’ensemble de pages la présence de deux systèmes parmi le menu, le plan du site et le moteur de recherche.
 - **12.2** Menu et barres de navigation toujours à la même place — jugement humain. Reste : comparer plusieurs pages de l’ensemble (place à l’écran, ordre dans le code).
