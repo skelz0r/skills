@@ -54,7 +54,7 @@ Lire le code et établir les verdicts sans poser de question :
 - **conditions réelles** : une vérification posée en phase 2 suffit ; sans réponse, NT.
 - **jugement humain** : toujours NT, jamais C.
 
-Dans tous les modes, NA reste possible quand le code montre que le critère est sans objet (aucune image → 1.3 et 1.8 NA). Si du contenu dynamique (props, variables, contenu traduit) peut apporter l’objet du critère, le code ne le montre pas : NT.
+Dans tous les modes, NA reste possible quand le code montre que le critère est sans objet (aucune image → 1.3 et 1.8 NA). Si une valeur dynamique de ce code (prop, variable, texte traduit) peut apporter l’objet du critère, le code ne le montre pas : NT. Le contenu injecté par un gabarit (`yield`, `children`) n’entre pas dans cette règle : il se vérifie sur les vues qui le fournissent.
 
 Les cas listés après « Le code prouve : NC… » sont des exemples, pas une liste fermée : tout défaut visible dans le code et dont l’impact est nommé reste une NC, même absent de la ligne.
 
