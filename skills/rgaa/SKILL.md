@@ -51,7 +51,7 @@ Lire le code et établir les verdicts sans poser de question :
 - **Page** : document complet (`<html>`, `<head>`), layout ou gabarit de route (`app/views/layouts/`, `pages/`, `app/**/page.tsx`, `index.html`).
 - **Composant** : tout le reste (composant, partial, fragment de page).
 
-En mode composant, 12 critères ne sont pas évalués, car ils dépendent de la page complète ou de l’ensemble de pages : 8.1, 8.3 à 8.6 et 12.1 à 12.7. Les compter à part, en « non évalués — mode composant », jamais en NA. Les autres critères des thèmes 8 et 12 (8.2, 8.7 à 8.10, 12.8 à 12.11) s’évaluent sur le fragment audité. Indiquer le mode dans l’en-tête du rapport.
+En mode composant, 13 critères ne sont pas évalués, car ils dépendent de la page complète ou de l’ensemble de pages : 8.1, 8.3 à 8.6, 9.2 et 12.1 à 12.7. Les compter à part, en « non évalués — mode composant », jamais en NA. Les autres critères de ces thèmes s’évaluent sur le fragment audité. Indiquer le mode dans l’en-tête du rapport.
 
 **Règle de tri par impact (avant tout verdict) :**
 
@@ -126,7 +126,7 @@ Sans réponse, ou en exécution non interactive (agent, script) : sauter les pha
 | 13. Consultation | | | | |
 | **Total** | | | | |
 
-En mode composant, les lignes 8 et 12 ne comptent que les critères évalués sur le fragment et précisent le reste : « 8. Éléments obligatoires (5 non évalués) », « 12. Navigation (7 non évalués) ».
+En mode composant, les lignes 8, 9 et 12 ne comptent que les critères évalués sur le fragment et précisent le reste : « 8. Éléments obligatoires (5 non évalués) », « 9. Structuration (1 non évalué) », « 12. Navigation (7 non évalués) ».
 
 ---
 
@@ -167,6 +167,7 @@ Ces critères nécessitent la page complète pour être évalués, entre autres 
 - 8.1, 8.3 à 8.6 Type de document, langue par défaut et titre de la page
 - 8.2 Code source valide (évalué sur le fragment, à revérifier sur la page complète)
 - 9.1 Hiérarchie de titres sur l’ensemble de la page (évaluée sur le fragment, à revérifier sur la page complète)
+- 9.2 Structure du document
 - 12.1 à 12.7 Systèmes de navigation, plan du site, moteur de recherche, zones de regroupement et lien d’évitement
 ```
 
