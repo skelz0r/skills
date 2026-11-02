@@ -30,6 +30,7 @@ Indiquer dans l’en-tête du rapport la stack retenue et ce qui l’a détermin
 - Quand le critère a des blocs « Correction — React / JSX » et « Correction — Rails / ERB » dans sa référence, reprendre le bloc de la stack retenue. Si le bloc manque pour ce critère, rédiger la correction dans la stack retenue.
 - Quand la référence n’a qu’un exemple, sans bloc par stack : en React / JSX, le reprendre ; en Rails / ERB, le transposer (`className` → `class`, `htmlFor` → `for`, expressions JSX → ERB) et le signaler par « exemple transposé depuis React » ; en HTML ou pour une autre stack, en donner la version HTML.
 - Ne jamais inventer de classe `fr-*` du DSFR : n’utiliser que celles déjà présentes dans les références ou dans le code audité.
+- Même règle pour le balisage d’un composant DSFR : si aucun bloc de la référence ni le code audité ne le montre, ne pas écrire sa structure de mémoire ; renvoyer à la documentation du composant sur [le site du DSFR](https://www.systeme-de-design.gouv.fr/).
 
 ## Workflow d’audit en trois phases
 
