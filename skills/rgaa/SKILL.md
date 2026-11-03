@@ -85,7 +85,7 @@ Après l’analyse, poser en un seul message les vérifications que le code seul
 | **Focus visible** | 🔴 | Focus visible sur tous les éléments interactifs ? |
 | **CAPTCHA** | 🔴 | Le CAPTCHA propose-t-il une autre forme d’accès (audio, question) ? |
 | **Titre de la page** | 🔴 | Le titre de la page est-il pertinent et spécifique ? |
-| **Zoom et reflow** | 🟠 | Zoom à 200 %, fenêtre de 320 px de large et espacement du texte augmenté testés ? (aucun texte coupé, pas de défilement horizontal) |
+| **Zoom et reflow** | 🟠 | Zoom à 200 %, fenêtre de 320 px de large, fenêtre de 256 px de haut et espacement du texte augmenté testés ? (aucun texte coupé, pas de défilement horizontal à 320 px, pas de défilement vertical à 256 px pour un contenu qui se lit verticalement) |
 | **Contrastes** | 🟠 | Contrastes vérifiés ? (texte, composants d’interface, liens dans un texte) |
 | **Sans feuille de style** | 🟠 | Contenu consulté sans feuille de style ? (information toujours présente, ordre de lecture compréhensible) |
 | **Orientation** | 🟡 | Contenu consulté en portrait puis en paysage ? |
